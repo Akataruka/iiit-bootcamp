@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("/assets/img1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav{
+    background-color: red;
+    display: flex;
+    height: 10em;
+    flex-direction: row;
+    -ms-flex-align: center;
+    justify-content: center;
+
+}
+.logo{
+    position: absolute;
+    left:1em;
+    margin: 8px 10px;
+    height: 8em;
+    border-radius: 10px;
+}
+#iiit{
+    padding: 5px 1em;
+    font-size: 4em;
+    font-weight: bolder;
+
+}
+
+#bootcamp{
+    padding:1em 0px;
+    font-size: 4em;
+    font-weight: bolder;
+}
+
